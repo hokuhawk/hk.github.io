@@ -1,0 +1,102 @@
+body{
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left : auto;
+    margin-bottom: 30px;
+    background-color: #a7f5ff7e;
+    background-image: radial-gradient(rgb(0, 236, 12) 10%, transparent 20%), radial-gradient(#eee 10%, transparent 20%);
+    background-size: 20px 20px;
+}
+div.index{
+    position:relative;
+    background-color: rgba(217, 233, 255, 0.884);
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left : auto;
+    width: 600px;
+    height: 450px;
+}
+section{
+    height: 275px;
+    padding: 10px;
+}
+section > img.favicon{
+    display:flex;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left : auto;
+    width:150px;
+    height:150px;
+    border: solid 2px rgb(0, 36, 83);
+    border-radius: 75px;
+    transition: all 0.5s ease;
+}
+section > img.favicon:hover{
+    transform: scaleX(-1);
+    motion-rotation: inherit;
+}
+section > h1.prof{
+    text-align:center;
+    color:white;
+    position: relative;   
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left : auto;
+    width:150px;
+    border-top: solid 10px;
+    border-bottom: solid 10px;
+    border-right: dashed 10px;
+    border-left: dashed 10px;
+    border-color: rgb(0, 36, 83);
+    background-color:rgba(32, 92, 172, 0.774);
+}
+
+section > p.prof{
+    position: relative;    
+    margin-right: auto;
+    margin-left : auto;
+    width:250px;
+    text-align:center;
+    background-color: white;
+}
+nav{
+    position: relative;
+    margin-right: auto;
+    margin-left : auto;
+    width:250px;
+    background-color:white;
+    border-top: solid 7px;
+    border-bottom: solid 7px;
+    border-right: solid 7px;
+    border-left: solid 7px;
+    border-color: rgb(255, 160, 160);
+    background-color:rgba(255, 251, 211, 0.774);
+
+}
+nav > p.navtitle{
+    text-align:center;
+    margin-right: auto;
+    margin-left : auto;
+    border-bottom: solid 7px;
+    border-color: rgb(255, 160, 160);
+}
+nav > p.twiaccount{
+    width:70px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    border-right: solid 10px;
+    border-color: rgb(255, 160, 160);
+}
+nav > a.twitter-follow-button{
+    position: relative;
+
+}
+nav > div.ttt{
+    margin-top: -20px;
+    margin-left: 90px;
+}
+
+a.twitter-timeline{
+    height: 200px;
+}
